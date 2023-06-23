@@ -26,7 +26,7 @@ By default, the order of items in list and dict parameters is irrelevant to
 
 You can tell `Uniquorn` the order of items is relevant to your
 class through `uniquorn_list_order_matters` and `uniquorn_dict_order_matters`.
-By assigning `True` to you tell `Uniquorn` for all parameters of that type order
+By assigning `True` you tell `Uniquorn` for that type of parameter the order
 of the items is relevant. Alternatively, you can assign the names of the
 parameters  as a list, tuple or set to tell `Uniquorn` for those parameters the
 order of the items is relevant.
